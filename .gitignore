@@ -1,0 +1,78 @@
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+
+# Environment Variables and Secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+config/secrets.yml
+secrets.json
+
+# Dependencies
+node_modules/
+venv/
+env/
+.venv/
+ENV/
+vendor/
+*.egg-info/
+pip-log.txt
+package-lock.json
+
+# Build Outputs
+dist/
+build/
+out/
+target/
+bin/
+obj/
+*.o
+*.so
+*.exe
+*.dll
+*.pyc
+__pycache__/
+
+# Logs and Databases
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary Files
+*.tmp
+*.temp
+*.cache
+.cache/
+
+# Markdown Files (selective)
+# Ignore personal/draft markdown files
+notes.md
+draft.md
+TODO.md
+# Keep important documentation
+!README.md
+!CONTRIBUTING.md
+!CHANGELOG.md
+!LICENSE.md
