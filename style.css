@@ -950,7 +950,7 @@ a:hover {
 .blog-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: var(--spacing-lg);
+    gap: 2.5rem;  /* Increased from var(--spacing-lg) for more breathing room */
     margin-bottom: var(--spacing-xl);
 }
 
